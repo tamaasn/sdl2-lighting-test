@@ -17,7 +17,6 @@ struct Player player;
 struct Fireflies fireflies[fireflies_max];
 struct Lights lights[light_max];
 
-SDL_Rect light_rect;
 int random_number;
 int jump_count=1;
 
