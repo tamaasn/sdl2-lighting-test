@@ -101,11 +101,6 @@ void game_init(){
 
     player.moving = false;
 
-    light_rect.w = 128;
-    light_rect.h = 128;
-    light_rect.x = 400;
-    light_rect.y = 352;
-
     for (int i =0;i<light_max;i++){
         lights[i].rect.x = i*200;
         lights[i].rect.y = 352;
